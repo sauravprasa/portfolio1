@@ -47,7 +47,7 @@ header .row .logo{
 }
 header .row .left-icons{
     float: right;
-    padding: 15px 0;
+    /* padding: 15px 0; */
 }
 .logo{
     position: relative;
@@ -55,7 +55,7 @@ header .row .left-icons{
 .logo a{
     text-decoration: none;
     float: left;
-    background: #0a6edd;
+    background: #FFAD01;
     padding: 6px 14px;
     border-radius: 50%;
 }
@@ -91,9 +91,22 @@ span.logo-lin3 {
 }
 .left-icons .search-icon {
     float: left;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
     color: #fff;
     font-size: 13px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 7px 10px;
+    margin: 0 8px;
+}
+.left-icons .search-icon:hover{
+    padding: 7px 10px;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #fff;
+    margin: 0 8px;
 }
 .cart-icon .count {
     position: relative;
@@ -145,17 +158,37 @@ span.logo-lin3 {
     line-height: 25px;
     width: 52vw;
     letter-spacing: 2px;
+    color: #fff;
 }
 .btn-learn {
     padding: 50px 0;
+}
+.button-contact {
+    background: #202020;
+    color: #fff;
+    float: left;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.seprater {
+    padding: 18px 0px;
+    float: left;
+    border-left: 2px solid #fff;
+}
+.search-icon a{
+    color: #fff;
 }
 .btn-learn button{
     height: 44px;
     width: 165px;
     color: #fff;
-    background-color: rgb(0, 194, 130);
+    background-color: rgb(255 173 1);
     border: none;
-    font-weight: 700;
+    font-weight: 800;
     outline: none;
     transition:background 0.3s;
 }
@@ -170,9 +203,10 @@ span.logo-lin3 {
     /* background: url("img2.jpg"); */
     background-position: center;
     background-size:cover;
-    height: 92vh;
+    /* height: 92vh; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    position: relative;
 }
 .mission .bg,.mission .bg1,.mission .bg2{
     width: 100%;
@@ -182,28 +216,29 @@ span.logo-lin3 {
 .mission .bg{
     clip-path: circle(50.8% at 28% 9%);
     z-index: -1;
-    background: linear-gradient(to bottom right, #00c282, #edeffb);
+    background: linear-gradient(to bottom right, #ffad01, #edeffb);
 }
 .mission .bg2{
     clip-path: circle(6.2% at 87% 76%);
     z-index: -1;
-    background: linear-gradient(to bottom right, #00c282, #edeffb);
+    background: linear-gradient(to bottom right, #ffad01, #edeffb);
 }   
 .mission .bg1{
     clip-path: circle(15.8% at 81% 35%);
     z-index: -1;
-    background: linear-gradient(to bottom right, #00c282, #edeffb);
+    background: linear-gradient(to bottom right, #ffad01, #edeffb);
 }
 .view{
     position: relative;
     height: 44px;
     width: 165px;
     color: #fff;
-    background-color: rgb(0, 194, 130);
+    background-color: #ffad01;
     border: none;
-    font-weight: 700;
+    font-weight: 800;
     outline: none;
     transition:color 0.25s ease;
+    cursor: pointer;
 }
 .view:hover{
     color:#fff;
@@ -227,11 +262,16 @@ span.logo-lin3 {
 .mission .row {
     float: left;
     width: 100%;
-    padding: 0 110px;
+    padding: 10px 110px;
+    align-items: center;
+    display: flex;
 }
 .image-section {
     float: left;
     width: 51%;
+    height: 500px;
+    background: #312d2d87;
+    border-radius: 10px;
 }
 .image-section img {
     width:100%
@@ -247,14 +287,23 @@ span.logo-lin3 {
     font-size: 14px;
     line-height: 31px;
     letter-spacing: 0.2em;
+    color: #868585;
+    font-weight: 800;
+    padding-bottom: 10px;
 }
 .about-section .text2 {
-    font-size: 25px;
-    line-height: 60px;
+    font-size: 20px;
+    line-height: 40px;
     text-align: left;
+    color: black;
+    padding-bottom: 12px;
 }
 .text3 {
     font-size: 15px;
+    color: #6d6d6d;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 .text3 p {
     line-height: 23px;
@@ -292,7 +341,7 @@ a.nav-1 {
 }
 
 nav .circles .circle-1{
-    color: #0a6edd;
+    color: #FFAD01;
     font-size: 9px;
     position: absolute;
     right: 9px;
@@ -300,11 +349,11 @@ nav .circles .circle-1{
 }
 nav .circles .circle-hole {
     font-size: 28px;
-    color: #0a6edd;
+    color: #FFAD01;
 }
 nav .circles .circle-hover {
     position: absolute;
-    color: #0a6edd;
+    color: #FFAD01;
     right: 7px;
     top: 7px;
     font-size: 13px;
@@ -324,7 +373,7 @@ nav .link-name {
     position: absolute;
     top:5px;
     left: 15px;
-    background: #0a6edd;
+    background: #FFAD01;
     padding: 2px 10px;
     color: #fff;
     border-radius: 10px;
@@ -344,10 +393,12 @@ nav .link-name {
     /* background: url(img3.jpg); */
     background-position: center;
     background-size:cover;
-    height: 92vh;
-    display: flex;
+    /* height: 92vh; */
+    /* display: flex; */
     /* align-items: center; */
     padding-top:100px;
+    position: relative;
+    padding-bottom:40px;
 }
 .container {
     float: left;
@@ -356,6 +407,15 @@ nav .link-name {
 }
 .services .row{
     float: left;
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+}
+.services .container{
+    float: right;
+    width: 50%;
+    padding-right: 80px;
 }
 .services .diamond{
     color: #fff;
@@ -371,24 +431,24 @@ nav .link-name {
 }
 .services .about-section{
     float: left;
-    color: #fff;
+    /* color: #fff; */
     font-family: sans-serif;
     padding-left: 25px;
-    text-align: center;
+    /* text-align: center; */
     padding-top:40px;
     color: #00c282;
 }
 .services .about-section .text2 {
-    text-align: center;
+    /* text-align: center; */
     line-height: 1.3em;
 }
 .services .text3{
-    padding: 0 200px;
+    /* padding: 0 200px; */
 }
 span.codebox {
     float: left;
-    position: absolute;
-    left: 50px;
+    width: 50%;
+    padding: 0 60px;
 }
 span.conatin.box {
     float: left;
@@ -396,6 +456,7 @@ span.conatin.box {
     height: 450px;
     background: linear-gradient(109.61deg,#4c4f5a 4.26%,#202125 84.84%);
     border-radius: 5px;
+    position: relative;
 }
 span.html-box {
     width: 300px;
@@ -481,6 +542,7 @@ span.setting-icon ,span.down-arrow{
 .work{
     float: left;
     width: 100%;
+    padding: 50px;
 }
 .work .bg,.work .bg1,.work .bg2{
     width: 100%;
@@ -490,39 +552,45 @@ span.setting-icon ,span.down-arrow{
 .work .bg{
     clip-path: circle(19.8% at 30% 34%);
     z-index: -1;
-    background: linear-gradient(to bottom right, #00c282, #edeffb);
+    background: linear-gradient(to bottom right, #ff960b, #edeffb);
 }
 .work .bg2{
     clip-path: circle(6.2% at 87% 76%);
     z-index: -1;
-    background: linear-gradient(to bottom right, #00c282, #edeffb);
+    background: linear-gradient(to bottom right, #ff960b, #edeffb);
 }   
 .work .bg1{
     clip-path: circle(15.8% at 81% 35%);
     z-index: -1;
-    background: linear-gradient(to bottom right, #00c282, #edeffb);
+    background: linear-gradient(to bottom right, #ff960b, #edeffb);
 }
 .work .row {
     float: left;
-    /* width: 1140px; */
     width: 100%;
-    text-align: center;
-    /* margin: 0 110px; */
-    /* padding: 0 20px; */
+    /* text-align: center; */
 }
 .work .title {
-    font-size: 25px;
-    color: #00c282;
-    /* font-size: 14px; */
+    font-size: 20px;
     line-height: 31px;
     letter-spacing: 0.2em;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.work .xy1 {
+    font-size: 14px;
+    line-height: 31px;
+    letter-spacing: 0.2em;
+    color: #868585;
+    font-weight: 800;
 }
 .work span.box1 {
     float: left;
-    width: 30%;
+    width: 25%;
     height: 350px;
     background: aqua;
 }
+
 .work .row1{
     float: left;
     /* width: 1140px; */
