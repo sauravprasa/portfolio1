@@ -542,6 +542,11 @@ span.setting-icon ,span.down-arrow{
 .work{
     float: left;
     width: 100%;
+    /* padding: 50px; */
+}
+.work-row{
+    float: left;
+    width: 100%;
     padding: 50px;
 }
 .work .bg,.work .bg1,.work .bg2{
@@ -586,9 +591,8 @@ span.setting-icon ,span.down-arrow{
 }
 .work span.box1 {
     float: left;
-    width: 25%;
-    height: 350px;
-    background: aqua;
+    width: 100%;
+    position: relative;
 }
 
 .work .row1{
@@ -596,9 +600,57 @@ span.setting-icon ,span.down-arrow{
     /* width: 1140px; */
     /* margin: 0 110px; */
     width: 100%;
-    padding: 20px 0;
+    padding: 40px 0;
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
     justify-content: space-between;
+}
+.work span.box1 a{
+    float: left;
+    width: 50%;
+}
+.work span.box1 a img{
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+}
+span.img-body-text {
+    float: left;
+    width: 50%;
+    background: rgb(0 0 0 / 42%);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: right;
+    right: 70px;
+    border-radius: 10px;
+}
+p.text-pro {
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+    height: 100px;
+    text-align: center;
+    padding: 25px 10px;
+}
+.img-text-right{
+    right: 0;
+    left: 70px;
+}
+.work span.box1 a.right{
+    float: right;
+}
+.que .row{
+    padding: 50px;
+}
+.que span.heading {
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.2em;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
 }
