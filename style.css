@@ -1030,3 +1030,9 @@ span.head-path {
     font-size: 35px;
     text-align: center;
 }
+.reveal:hover{
+    transform:scale(1.05);
+    transition: transform .4s ease-out;
+    z-index: 3;
+    mix-blend-mode: normal;
+}
